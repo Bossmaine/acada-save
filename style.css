@@ -309,10 +309,98 @@ center img {
   }
   
 
+@media screen and (min-width: 200px) and (max-width: 500px) {
+    .navbar {
+        padding: 15px 10px !important;
+    }
 
+    br {
+        display: none;
+    }
 
+    .image-sect img {
+        margin-top: 20px;
+    }
 
-@media screen and (min-width: 200px) and (max-width: 900px) {
+    .head-texts, .para-texts {
+        text-align: center;
+    }
+    
+    .start-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-style {
+        margin-top: 20px;
+    }
+
+    .top-svg {
+        margin-top: -50px;
+    }
+
+    .third-sec-row {
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+
+    .car-main {
+        flex-wrap: wrap;
+        margin-top: -50px;
+    }
+
+    .quick-links {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .board {
+        gap: 0px;
+        top: 58%;
+        width: 95%;
+        padding: 10px 30px;
+    }
+
+    .board h5, .board p {
+        text-align: center;
+        
+    }
+
+    .board h5 {
+        padding-bottom: 3px;
+    }
+
+    .board p {
+        padding-bottom: 10px;
+    }
+
+    .footer-column {
+        flex-direction: column-reverse;
+    }
+
+    .footer-section {
+        background-color: #39046d;
+        color: #fff;
+        padding: 80px 0 50px 0;
+    }
+
+    .footer-logo-area {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 60px;
+
+    }
+
+    .footer-logo-area p {
+        text-align: center !important;
+    }
+
+    
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
     .navbar {
         padding: 15px 10px !important;
     }
@@ -359,7 +447,7 @@ center img {
 
     .board {
         gap: 0px;
-        top: 58%;
+        top: 62%;
         width: 95%;
         padding: 10px 30px;
     }
@@ -379,7 +467,7 @@ center img {
 
 }
 
-@media screen and (min-width: 899px) and (max-width: 1100px) {
+@media screen and (min-width: 900px) and (max-width: 1100px) {
     .card-style {
         width: 14rem !important;
         margin-right: 60px !important;
@@ -392,14 +480,6 @@ center img {
     .board {
         gap: 0px;
         width: 70%;
+        top: 50%;
     }
 }
-
-
-
-
-
-
-
-
-
