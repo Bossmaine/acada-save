@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif ;
+}
+
+.navbar {
+    padding: 15px 170px !important;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+}
+  
+
+.navbar-nav li {
+    margin-right: 25px;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.in-btn {
+    color: #15143966;
+    border: none;
+    background: transparent;
+}
+
+.up-btn {
+    padding: 10px 35px;
+    color: #fff;
+    background: #725AC1;
+    border: none;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.head-texts {
+    color: #3a2d63 ;
+    font-weight: 700 ;    
+}
+
+h1 {
+    font-size: 62px;
+    letter-spacing: 2px;
+}
+
+.para-texts {
+    font-size: 15px;
+    color: rgba(0,0,0,.5);
+    line-height: 1.5rem;
+}
+
+.cont-style {
+    background: #f3f4f5;
+}
+
+.top-svg {
+    margin-top: -180px;
+}
+
+.row-style {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.card-style {
+    border-bottom: 7px solid rgb(241, 71, 14) !important;
+    border-radius: 10px 10px 0 0 !important ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.image-sect img {
+    max-width: 100%;
+}
+
+center img {
+    padding: 20px 30px;
+    max-width: 90%;
+}
+
+.card-body h5, .card-body p {
+    text-align: center;
+}
+
+.card-body p {
+    padding-top: 10px;
+}
+
+.head-t2 {
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 33px;
+}
+
+.para-t2 {
+    font-size: 18px;
+}
+
+.third-img-sect {
+    position: relative;
+}
+
+.choose {
+    position: absolute;
+    top: 50%;
+}
+
+.third-img-sect img {
+    padding-left: 80px;
+}
+
+.third-sec-row {
+    margin-top: 80px;
+}
+
+.fourth-section {
+    margin-top: 100px;
+}
+
+.fourth-section h4 {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.plans-card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    min-height: 100%;
+}
+
+.plans-card h5, .plans-card p {
+    text-align: center;
+}
+
+.plans-card h5 {
+    color: #fff;
+    background: rgb(231, 155, 192);
+    padding: 10px 0px;
+}
+
+.plan-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    border-top: 2px solid #f3f4f5;
+    width: 85%;
+}
+
+.parent h5 {
+    background: rgb(45, 129, 212);
+}
+
+.gold h5 {
+    background: rgb(241, 71, 14);
+}
+
+.fifth-section {
+    position: relative;
+}
+  
+.car-sect {
+    background: #f3f4f5;
+}
+  
+  .car-main {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 150px;
+    margin-top: -70px;
+    width: 100%;
+  }
+  
+  .quote {
+    padding-right: 40px;
+  }
+  
+  .quote h4 {
+    font-size: 25px;
+  }
+  
+  .customer {
+    display: flex;
+  }
+  
+  .customer-card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px 30px;
+    height: 100%;
+    background: #fff;
+  }
+  
+  .customer-card p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+    border-bottom: 2px solid #d9dbdc;
+  }
+  
+  .customer-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .customer-info img {
+    max-width: 50px;
+    border-radius: 100%;
+  }
+  
+  .customer-info h6 {
+    padding-top: 10px;
+  }
+  
+  .board {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #5A98F2;
+    padding: 30px 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 1;
+    display: flex;
+    color: #fff;
+    width: max-content;
+    border-radius: 10px;
+    justify-content: center;
+    gap: 450px;
+    flex-wrap: wrap;
+  }
+  
+  .board h5 {
+    font-size: 25px;
+    margin: 0;
+  }
+  
+  .board p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .board-btn button {
+    background-color: #fff;
+    color: #725AC1;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 4px;
+  }
+  
+  .board-btn button:hover {
+    background-color: #725AC1;
+    color: #fff;
+  }
+  
+  .footer-section {
+    background-color: #39046d;
+    color: #fff;
+    padding: 130px 0 50px 0;
+  }
+  
+  .footer-logo img {
+    max-width: 150px;
+  }
+  
+  .footer-section p {
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 28px;
+  }
+  
+  .socials a {
+    color: #fff;
+    margin-right: 20px;
+  }
+  
+  .quick-links {
+    text-align: right;
+  }
+
+  .quick-links h6 {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .quick-links p {
+    margin-bottom: 10px;
+  }
+  
+  .quick-links a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+  }
+  
+  .quick-links a:hover {
+    color: #fff;
+  }
+
+  i {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+
+
+
+
+@media screen and (min-width: 200px) and (max-width: 900px) {
+    .navbar {
+        padding: 15px 10px !important;
+    }
+
+    br {
+        display: none;
+    }
+
+    .image-sect img {
+        margin-top: 20px;
+    }
+
+    .head-texts, .para-texts {
+        text-align: center;
+    }
+    
+    .start-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-style {
+        margin-top: 20px;
+    }
+
+    .top-svg {
+        margin-top: -50px;
+    }
+
+    .third-sec-row {
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+
+    .car-main {
+        flex-wrap: wrap;
+        margin-top: -50px;
+    }
+
+    .quick-links {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .board {
+        gap: 0px;
+        top: 58%;
+        width: 95%;
+        padding: 10px 30px;
+    }
+
+    .board h5, .board p {
+        text-align: center;
+        
+    }
+
+    .board h5 {
+        padding-bottom: 3px;
+    }
+
+    .board p {
+        padding-bottom: 10px;
+    }
+
+}
+
+@media screen and (min-width: 899px) and (max-width: 1100px) {
+    .card-style {
+        width: 14rem !important;
+        margin-right: 60px !important;
+    }
+
+    .plans-card {
+        width: 19rem !important;
+    }
+
+    .board {
+        gap: 0px;
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+
